@@ -34,7 +34,3 @@
      return 0;
  } 
 
-
-    cout << "Total price: $" << new_total << endl;
-}
-
