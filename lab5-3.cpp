@@ -18,10 +18,10 @@ int main() {
     cout << "Are you a Premier Club member? (Y/N)" << endl;
     cin >> club_member;
 
-    if (toupper(club_member) == 'Y'){
+    if (club_member) == 'Y'){
         discount_rate = 0.1;
     }else
-        if (toupper(club_member) == 'N'){
+        if (club_member) == 'N'){
         discount_rate = 0.05;
 
     }else {
